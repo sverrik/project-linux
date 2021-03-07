@@ -30,7 +30,5 @@ def toggle_device(id):
                 dev.turn_on()
             return dev.state
  
-if __name__ == "__main__":
-    app.run()
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080, debug=TRUE)  
