@@ -17,6 +17,9 @@ let devices = [];
  
     devices = json;
  
+    // create a chart of the first device
+    createChart(devices[0].alias);
+    
     // remove the loader
     document.querySelector(".loader-container").style.display = 'none';
     
